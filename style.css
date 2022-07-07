@@ -10,6 +10,7 @@ html {
   --text-color: #00082f;
   --primary-color: #D6336C ;
   --primary-color-dark: #A61E4D;
+  --primary-color-light: #ff336C;
 }
 
 body.dark-blue {
@@ -29,6 +30,7 @@ body.dark-pink {
   --text-color: #FFF0F6;
   --primary-color: #D6336C ;
   --primary-color-dark: #A61E4D;
+  --primary-color-light: #ff336C;
 }
 
 body {
@@ -98,7 +100,7 @@ h1 {
 }
 
 .social > a:active {
- background-color: #4A61CE;
+ background-color: var(--primary-color-light);
 }
 
 footer {
