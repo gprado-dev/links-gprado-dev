@@ -93,13 +93,13 @@ h1 {
 }
 
 .social > a:hover {
- background-color: var(--primary-color-dark);
+ background-color: var(--primary-color-light);
 
  
 }
 
 .social > a:active {
- background-color: var(--primary-color-light);
+ background-color: var(--primary-color-dark);
 }
 
 footer {
