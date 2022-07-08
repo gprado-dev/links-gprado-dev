@@ -8,9 +8,9 @@
 html {
   --bg-color: #EDF2FF;
   --text-color: #00082f;
-  --primary-color: #D6336C ;
+  --primary-color: #D6336C;
   --primary-color-dark: #A61E4D;
-  --primary-color-light: #ff336C;
+  --primary-color-light: #cc334D;
 }
 
 body.dark-blue {
@@ -30,7 +30,6 @@ body.dark-pink {
   --text-color: #FFF0F6;
   --primary-color: #D6336C ;
   --primary-color-dark: #A61E4D;
-  --primary-color-light: #ff336C;
 }
 
 body {
@@ -109,7 +108,6 @@ footer {
   opacity: 0.7;
 
   transition: opacity 400ms;
-  margin-bottom: 40px;
 }
 
 footer:hover {
