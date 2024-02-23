@@ -20,13 +20,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.container {
-  background: #FFF;
-  padding: 56px 64px;
-  border-radius: 80px;
-  box-shadow: -3.714px 7.429px 14.857px 0px rgba(56, 96, 148, 0.20);
-}
-
 img {
   border: var(--primary-color) 4px solid;
   padding: 3px;
