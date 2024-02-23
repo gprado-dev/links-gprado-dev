@@ -13,25 +13,6 @@ html {
   --primary-color-light: #cc334D;
 }
 
-body.dark-blue {
-  --bg-color: #00082f;
-  --text-color: #fff;
-}
-
-body.pink {
-  --bg-color: #fff0f6;
-  --text-color: #1f000b;
-  --primary-color: #D6336C ;
-  --primary-color-dark: #A61E4D;
-}
-
-body.dark-pink {
-  --bg-color: #1F000B;
-  --text-color: #FFF0F6;
-  --primary-color: #D6336C ;
-  --primary-color-dark: #A61E4D;
-}
-
 body {
   background: var(--bg-color);
   color: var(--text-color);
