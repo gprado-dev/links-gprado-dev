@@ -7,7 +7,8 @@
 
 html {
   --bg-color: #EFF6FF; /*blue-50*/
-  --text-color: #1E3A8A; /*blue-900*/
+  --title-color: #1E40AF; /*blue-800*/
+  --paragraph-color: #1E3A8A; /*blue-900*/
   --primary-color: #1D4ED8; /*blue-700*/
   --primary-color-dark: #172554; /*blue-950*/
   --primary-color-light: #3B82F6; /*blue-500*/
@@ -15,8 +16,15 @@ html {
 
 body {
   background: var(--bg-color);
-  color: var(--text-color);
+  color: var(--paragraph-color);
   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background: #FFF;
+  padding: 56px 64px;
+  border-radius: 80px;
+  box-shadow: -3.714px 7.429px 14.857px 0px rgba(56, 96, 148, 0.20);
 }
 
 img {
@@ -30,12 +38,13 @@ img {
 h1 {
   font-size: 32px;
   margin-top: 16px;
+  color: var(--title-color);
 }
 
 .username {
   margin-bottom: 24px;
   font-family: 'Roboto Mono', monospace;
-  opacity: 0.8;
+  opacity: 0.7;
   font-size: 18px;
   font-weight: 400;
 }
@@ -93,5 +102,5 @@ footer:hover {
 
 footer a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--paragraph-color);
 }
