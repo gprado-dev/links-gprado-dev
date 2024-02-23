@@ -6,11 +6,11 @@
 }
 
 html {
-  --bg-color: #EDF2FF;
-  --text-color: #00082f;
-  --primary-color: #D6336C;
-  --primary-color-dark: #A61E4D;
-  --primary-color-light: #cc334D;
+  --bg-color: #EFF6FF; /*blue-50*/
+  --text-color: #1E3A8A; /*blue-900*/
+  --primary-color: #1D4ED8; /*blue-700*/
+  --primary-color-dark: #172554; /*blue-950*/
+  --primary-color-light: #3B82F6; /*blue-500*/
 }
 
 body {
@@ -30,7 +30,6 @@ img {
 h1 {
   font-size: 32px;
   margin-top: 16px;
- 
 }
 
 .username {
@@ -39,7 +38,6 @@ h1 {
   opacity: 0.8;
   font-size: 18px;
   font-weight: 400;
- 
 }
 
 
@@ -47,7 +45,7 @@ h1 {
   list-style:none;
   padding-left:0;
   margin-bottom: 48px;
-  }
+}
 
 .social > a {
   /* posição */
