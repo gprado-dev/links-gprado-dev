@@ -42,7 +42,7 @@ h1 {
   font-weight: 400;
 }
 
-div > div > p + p {
+.container > div > p + p {
   margin-bottom: 24px;
 }
 
