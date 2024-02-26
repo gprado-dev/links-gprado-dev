@@ -29,6 +29,7 @@ img {
 }
 
 h1 {
+  font-weight: 900;
   font-size: 32px;
   margin-top: 16px;
   color: var(--title-color);
