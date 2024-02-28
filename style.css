@@ -77,7 +77,7 @@ h1 {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
 
   /* transição */     
   transition:background 400ms;
